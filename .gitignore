@@ -2,6 +2,7 @@
 .env
 .venv/
 app/**/__pycache__/
+tests/__pycache__/
 .pytest_cache/
 .coverage
 htmlcov/

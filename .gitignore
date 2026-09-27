@@ -1,8 +1,9 @@
 # 現在のローカル環境・生成物
 .env
 .venv/
+app/**/__pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
-.vscode/settings.json
+.vscode/
 API仕様書.xlsx

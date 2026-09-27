@@ -1,7 +1,7 @@
 # LLMドキュメント要約API 
 
 ## 概要
-PDF・DOCX・TXTファイルを受け取り、本文を抽出して要約するREST APIです。FastAPIによる同期処理と、Celeryによる非同期処理の両方に対応しています。
+PDF・DOCX・TXTファイルを受け取り、LLM（OpenAI `gpt-4o-mini`）で本文を要約するREST APIです。FastAPIによる同期処理と、Celeryによる非同期処理の両方に対応しています。
 
 ## スクリーンショット
 
@@ -31,6 +31,7 @@ PDF・DOCX・TXTファイルを受け取り、本文を抽出して要約するR
 
 - Python 3.11
 - FastAPI / Uvicorn
+- LLM: OpenAI `gpt-4o-mini`
 - OpenAI Python SDK
 - Celery
 - Redis
